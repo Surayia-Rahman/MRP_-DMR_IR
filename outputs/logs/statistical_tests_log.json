@@ -1,0 +1,104 @@
+{
+  "feature_table_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/data/features/final_feature_table_144.csv",
+  "n_features_tested": 144,
+  "n_fdr_significant_005": 48,
+  "n_raw_p_significant_005": 57,
+  "top_10_abs_effect_features": [
+    {
+      "feature": "std_dynamic_frame_std",
+      "main_feature_group": "physics_informed_recovery",
+      "feature_subgroup": "physics_dynamic_std_change",
+      "cohens_d_sick_minus_healthy": 1.4013356919241198,
+      "p_value": 1.827621838261023e-17,
+      "q_value_fdr_bh": 2.6317754470958732e-15
+    },
+    {
+      "feature": "dynamic_frame_std_delta",
+      "main_feature_group": "physics_informed_recovery",
+      "feature_subgroup": "physics_dynamic_std_change",
+      "cohens_d_sick_minus_healthy": 1.2816719052301897,
+      "p_value": 3.249643525327489e-16,
+      "q_value_fdr_bh": 2.339743338235792e-14
+    },
+    {
+      "feature": "dynamic_frame_std_slope",
+      "main_feature_group": "physics_informed_recovery",
+      "feature_subgroup": "physics_dynamic_std_change",
+      "cohens_d_sick_minus_healthy": 1.2316445671486282,
+      "p_value": 2.006755753020986e-15,
+      "q_value_fdr_bh": 9.632427614500733e-14
+    },
+    {
+      "feature": "local_slope_r04",
+      "main_feature_group": "physics_informed_recovery",
+      "feature_subgroup": "physics_local_region_features",
+      "cohens_d_sick_minus_healthy": 1.1591395134194071,
+      "p_value": 2.384863672400202e-14,
+      "q_value_fdr_bh": 8.585509220640727e-13
+    },
+    {
+      "feature": "local_recovery_r04",
+      "main_feature_group": "physics_informed_recovery",
+      "feature_subgroup": "physics_local_region_features",
+      "cohens_d_sick_minus_healthy": 1.112531030330253,
+      "p_value": 7.290458793366078e-14,
+      "q_value_fdr_bh": 2.0996521324894304e-12
+    },
+    {
+      "feature": "local_slope_r01",
+      "main_feature_group": "physics_informed_recovery",
+      "feature_subgroup": "physics_local_region_features",
+      "cohens_d_sick_minus_healthy": 1.050328068127882,
+      "p_value": 1.3371586975051788e-12,
+      "q_value_fdr_bh": 3.209180874012429e-11
+    },
+    {
+      "feature": "local_recovery_r01",
+      "main_feature_group": "physics_informed_recovery",
+      "feature_subgroup": "physics_local_region_features",
+      "cohens_d_sick_minus_healthy": 0.989630991746413,
+      "p_value": 1.076699703363968e-11,
+      "q_value_fdr_bh": 2.2149251040630198e-10
+    },
+    {
+      "feature": "local_recovery_max_abs",
+      "main_feature_group": "physics_informed_recovery",
+      "feature_subgroup": "physics_local_summary_features",
+      "cohens_d_sick_minus_healthy": 0.9676477575220879,
+      "p_value": 1.8588992100683174e-11,
+      "q_value_fdr_bh": 3.3460185781229714e-10
+    },
+    {
+      "feature": "local_slope_max_abs",
+      "main_feature_group": "physics_informed_recovery",
+      "feature_subgroup": "physics_local_summary_features",
+      "cohens_d_sick_minus_healthy": 0.9408562909599897,
+      "p_value": 4.4629915323973056e-11,
+      "q_value_fdr_bh": 7.140786451835689e-10
+    },
+    {
+      "feature": "local_recovery_max",
+      "main_feature_group": "physics_informed_recovery",
+      "feature_subgroup": "physics_local_summary_features",
+      "cohens_d_sick_minus_healthy": 0.9288654534360079,
+      "p_value": 8.780749489734468e-11,
+      "q_value_fdr_bh": 1.149479933201603e-09
+    }
+  ],
+  "saved_tables": {
+    "all_results": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/statistical_tests/feature_statistical_tests_all.csv",
+    "fdr_significant": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/statistical_tests/feature_statistical_tests_fdr_significant.csv",
+    "top_effects": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/statistical_tests/feature_statistical_tests_top_abs_cohens_d.csv",
+    "group_summary": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/statistical_tests/feature_statistical_tests_group_summary.csv"
+  },
+  "saved_figures": [
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/statistical_tests/top_25_features_by_cohens_d.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/statistical_tests/top_statistical_features_by_cohens_d.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/statistical_tests/top_physics_features_by_cohens_d.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/statistical_tests/feature_effect_size_volcano_fdr.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/statistical_tests/fdr_significant_counts_by_feature_subgroup.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/statistical_tests/median_abs_effect_size_by_feature_subgroup.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/statistical_tests/effect_size_distribution_by_main_feature_family.png"
+  ],
+  "timestamp": "2026-07-26 21:08:32.680671"
+}

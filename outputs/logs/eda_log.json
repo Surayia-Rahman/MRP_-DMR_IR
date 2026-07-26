@@ -1,0 +1,23 @@
+{
+  "index_shape": [
+    248,
+    11
+  ],
+  "class_counts": {
+    "healthy": 158,
+    "sick": 90
+  },
+  "saved_figures": [
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/eda/class_distribution_final_cohort.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/feature_analysis/average_frame_mean_curve_by_class.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/feature_analysis/average_frame_std_curve_by_class.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/feature_analysis/sick_minus_healthy_frame_mean_difference.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/feature_analysis/sick_minus_healthy_frame_std_difference.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/feature_analysis/frame_to_frame_delta_curve_by_class.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/feature_analysis/cumulative_recovery_curve_by_class.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/feature_analysis/regional_mean_curves_3x3_by_class.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/feature_analysis/local_recovery_sick_minus_healthy_heatmap.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/feature_analysis/local_slope_sick_minus_healthy_heatmap.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/feature_analysis/local_peak_rate_sick_minus_healthy_heatmap.png"
+  ]
+}

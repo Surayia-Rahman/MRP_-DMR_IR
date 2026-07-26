@@ -1,0 +1,47 @@
+{
+  "timestamp": "2026-07-26 20:50:44.231911",
+  "index_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/eda/dataset_index.csv",
+  "n_patients": 248,
+  "final_shape": [
+    248,
+    148
+  ],
+  "class_counts": {
+    "healthy": 158,
+    "sick": 90
+  },
+  "label_counts": {
+    "0": 158,
+    "1": 90
+  },
+  "feature_group_summary": {
+    "statistical_surface": 53,
+    "physics_informed_recovery": 91,
+    "combined_statistical_physics": 144,
+    "overlap_count": 0
+  },
+  "validation": {
+    "missing_metadata": [],
+    "missing_statistical": [],
+    "missing_physics": [],
+    "missing_combined": [],
+    "unassigned_features": [],
+    "overlap": [],
+    "n_metadata_expected": 4,
+    "n_statistical_expected": 53,
+    "n_physics_expected": 91,
+    "n_combined_expected": 144,
+    "n_non_metadata_observed": 144
+  },
+  "saved_paths": {
+    "statistical_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/data/features/statistical_surface_features.csv",
+    "physics_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/data/features/physics_informed_recovery_features.csv",
+    "combined_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/data/features/final_feature_table_144.csv",
+    "compatibility_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/data/features/statistical_features_v3_with_dynamic_std_and_local_recovery_gpu_reproduced.csv",
+    "statistical_table_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/features/statistical_surface_features.csv",
+    "physics_table_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/features/physics_informed_recovery_features.csv",
+    "combined_table_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/features/final_feature_table_144.csv",
+    "volume_qc_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/features/volume_qc_summary.csv",
+    "feature_group_summary_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/features/feature_group_summary.csv"
+  }
+}

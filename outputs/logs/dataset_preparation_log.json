@@ -1,0 +1,52 @@
+{
+  "dataset_root": "/content/drive/MyDrive/MRP/MRP_DMRIR/data/extracted/DMR-IR_dataset",
+  "full_index_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/eda/dataset_index_full_audit.csv",
+  "filename_valid_index_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/eda/dataset_index_filename_valid.csv",
+  "modeling_index_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/eda/dataset_index.csv",
+  "patient_index_summary": {
+    "n_patient_folders": 283,
+    "all_class_counts": {
+      "healthy": 183,
+      "sick": 100
+    },
+    "filename_level_valid_sequences": 250,
+    "filename_level_valid_class_counts": {
+      "healthy": 158,
+      "sick": 92
+    },
+    "excluded_patient_ids": [
+      "T0312",
+      "T0378"
+    ],
+    "n_excluded_from_modeling": 2,
+    "final_modeling_cohort": 248,
+    "final_modeling_class_counts": {
+      "healthy": 158,
+      "sick": 90
+    },
+    "final_modeling_label_counts": {
+      "0": 158,
+      "1": 90
+    },
+    "dropped_before_filename_validity": 33,
+    "status_counts": {
+      "retained_exact_20": 250,
+      "no_frontal_dynamic_files": 17,
+      "dropped_not_exact_20": 16
+    }
+  },
+  "sample_patient_id": "T0004",
+  "sample_selected_date": "2012-10-17",
+  "sample_volume_summary": {
+    "shape": [
+      20,
+      480,
+      640
+    ],
+    "nan_count": 0,
+    "min_temp": 20.040000915527344,
+    "max_temp": 34.060001373291016,
+    "mean_temp": 26.71588706970215,
+    "std_temp": 3.362665891647339
+  }
+}

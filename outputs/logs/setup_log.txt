@@ -1,0 +1,13 @@
+Project setup completed.
+
+Timestamp: 2026-07-26 01:56:22.158108
+Project directory: /content/drive/MyDrive/MRP/MRP_DMRIR
+Dataset zip path: /content/drive/MyDrive/MRP/DMR-IR_dataset.zip
+Dataset zip exists: True
+
+Label mapping:
+healthy = 0
+sick = 1
+
+First delta padding for CNN delta channels:
+delta at frame 0 = 0

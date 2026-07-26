@@ -1,0 +1,5 @@
+channel_set_name,n_channels,channels,n_temporal_features_flat
+temporal_2ch_mean_std,2,frame_mean|frame_std,40
+temporal_3ch_mean_std_mean_delta,3,frame_mean|frame_std|mean_delta,60
+temporal_4ch_mean_std_mean_delta_std_delta,4,frame_mean|frame_std|mean_delta|std_delta,80
+temporal_5ch_mean_std_deltas_cumulative,5,frame_mean|frame_std|mean_delta|std_delta|cumulative_recovery,100

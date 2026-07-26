@@ -1,0 +1,23 @@
+{
+  "channel_specs_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/temporal_cnn_experiments/temporal_channel_specs.csv",
+  "fold_metrics_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/temporal_cnn_experiments/temporal_cnn_fold_metrics.csv",
+  "oof_predictions_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/temporal_cnn_experiments/temporal_cnn_oof_predictions.csv",
+  "summary_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/temporal_cnn_experiments/temporal_cnn_model_comparison_summary.csv",
+  "figures": [
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/temporal_model_comparison_mean_accuracy.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/temporal_model_comparison_mean_roc_auc.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/temporal_model_comparison_pooled_accuracy.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/temporal_model_comparison_pooled_roc_auc.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/temporal_pooled_oof_roc_curves.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/confusion_matrices/confusion_matrix_temporal_4ch_mean_std_mean_delta_std_delta_temporal_cnn.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/confusion_matrices/confusion_matrix_temporal_5ch_mean_std_deltas_cumulative_temporal_cnn.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/confusion_matrices/confusion_matrix_temporal_2ch_mean_std_flat_logistic.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/confusion_matrices/confusion_matrix_temporal_3ch_mean_std_mean_delta_flat_logistic.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/confusion_matrices/confusion_matrix_temporal_5ch_mean_std_deltas_cumulative_flat_logistic.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/confusion_matrices/confusion_matrix_temporal_4ch_mean_std_mean_delta_std_delta_flat_logistic.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/confusion_matrices/confusion_matrix_temporal_2ch_mean_std_temporal_cnn.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/temporal_cnn_experiments/confusion_matrices/confusion_matrix_temporal_3ch_mean_std_mean_delta_temporal_cnn.png"
+  ],
+  "n_experiments": 8,
+  "timestamp": "2026-07-26 21:44:11.982214"
+}

@@ -1,0 +1,19 @@
+{
+  "summary_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/model_experiments/logistic_model_comparison_summary.csv",
+  "fold_metrics_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/model_experiments/logistic_fold_metrics.csv",
+  "oof_predictions_path": "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables/model_experiments/logistic_oof_predictions.csv",
+  "figures": [
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/model_experiments/model_comparison_accuracy.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/model_experiments/model_comparison_roc_auc.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/model_experiments/model_comparison_selected_features.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/model_experiments/pooled_oof_roc_curves_logistic.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/model_experiments/confusion_matrices/confusion_matrix_statistical_surface_unpruned_logistic.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/model_experiments/confusion_matrices/confusion_matrix_combined_unpruned_logistic.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/model_experiments/confusion_matrices/confusion_matrix_physics_informed_unpruned_logistic.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/model_experiments/confusion_matrices/confusion_matrix_physics_informed_corr090_pruned_logistic.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/model_experiments/confusion_matrices/confusion_matrix_combined_corr090_pruned_logistic.png",
+    "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures/model_experiments/confusion_matrices/confusion_matrix_statistical_surface_corr090_pruned_logistic.png"
+  ],
+  "n_experiments": 6,
+  "timestamp": "2026-07-26 21:28:10.432785"
+}
