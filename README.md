@@ -1,10 +1,12 @@
-# Dynamic Breast Thermography Analysis using Statistical, Physics-Informed, and Temporal Deep Learning Features
+# Comparison of Physics-Based and Statistical Approaches for Dynamic Breast Thermography Analysis
 
-This repository contains a reproducible analysis pipeline for dynamic infrared breast thermography data from the DMR-IR database. The project compares statistical surface-temperature descriptors, physics-informed recovery descriptors, and temporal neural-network models for binary classification of healthy and sick cases.
+This repository contains a reproducible analysis pipeline for dynamic infrared breast thermography data from the DMR-IR database. The project compares statistical surface-temperature descriptors, physics-informed recovery descriptors, and an extension of the project provides temporal neural-network models for binary classification of healthy and sick cases.
 
-This work was developed for the research project:
-
-**Comparison of Physics-Based and Statistical Approaches for Dynamic Breast Thermography Analysis**
+This work was developed for the major research project by 
+Surayia Rahman @ Toronto Metropolitan University (501145340)
+Under the supervision of
+1. Dr Carl Kumaradas (Professor, Physics Department)
+2. Dr Hisham Assi (Professor, Physics Department)
 
 ---
 
