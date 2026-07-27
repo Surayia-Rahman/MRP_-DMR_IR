@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Credentials / local secrets
+.env
+*.key
+*.pem
+credentials.json
+token.json
+
+# Browser temporary downloads
+*.crdownload
+
+# Temporary files
+tmp/
+temp/
+*.log
+
+# Ignore extracted dataset contents only
+data/extracted/*
+!data/extracted/.gitkeep
