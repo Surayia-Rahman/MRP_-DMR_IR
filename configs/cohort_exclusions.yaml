@@ -1,0 +1,13 @@
+# Patients excluded from the final modeling cohort.
+#
+# Reason:
+# These patients appear as valid 20-frame sick sequences in the current extracted ZIP,
+# but they were not present in the validated 248-patient feature table used for
+# the reported statistical-vs-physics-informed experiments.
+#
+# To reproduce the reported experimental cohort:
+# final cohort = 248 patients = 158 healthy + 90 sick
+
+excluded_patient_ids:
+  - T0312
+  - T0378

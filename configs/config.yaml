@@ -1,0 +1,41 @@
+project:
+  name: MRP_DMRIR
+  description: Statistical and physics-informed analysis of dynamic breast thermography sequences
+
+paths:
+  project_dir: "/content/drive/MyDrive/MRP/MRP_DMRIR"
+  dataset_zip: "/content/drive/MyDrive/MRP/DMR-IR_dataset.zip"
+  raw_data_dir: "/content/drive/MyDrive/MRP/MRP_DMRIR/data/raw"
+  extracted_data_dir: "/content/drive/MyDrive/MRP/MRP_DMRIR/data/extracted"
+  processed_data_dir: "/content/drive/MyDrive/MRP/MRP_DMRIR/data/processed"
+  feature_data_dir: "/content/drive/MyDrive/MRP/MRP_DMRIR/data/features"
+  outputs_dir: "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs"
+  figures_dir: "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/figures"
+  tables_dir: "/content/drive/MyDrive/MRP/MRP_DMRIR/outputs/tables"
+
+labels:
+  healthy: 0
+  sick: 1
+
+sequence:
+  n_frames: 20
+  first_delta_padding: 0
+
+cross_validation:
+  n_splits: 5
+  random_state: 42
+
+models:
+  main_model: logistic_regression
+  use_class_weight: true
+
+pruning:
+  correlation_threshold: 0.90
+
+cnn:
+  first_delta_padding: 0
+  channel_sets:
+    - mean_std
+    - mean_std_delta_mean
+    - mean_std_delta_mean_delta_std
+    - mean_std_delta_mean_delta_std_cumulative_recovery
